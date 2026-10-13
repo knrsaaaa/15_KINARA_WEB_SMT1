@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linktree Saya</title>
+    
+    <!-- Font Poppins & FontAwesome Icon -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        /* RESET & CSS DASAR */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        /* CONTAINER */
+        .container {
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        /* PROFIL */
+        .profile {
+            margin-bottom: 25px;
+        }
+
+        .profile-img {
+            width: 96px;
+            height: 96px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid rgba(255, 255, 255, 0.2);
+            margin-bottom: 12px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+        }
+
+        .profile h1 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 6px;
+        }
+
+        .profile p {
+            font-size: 0.875rem;
+            color: #94a3b8;
+            line-height: 1.4;
+        }
+
+        /* DAFTAR LINK */
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+
+        .link-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            padding: 14px 20px;
+            border-radius: 50px;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            backdrop-filter: blur(10px);
+            transition: all 0.25s ease;
+        }
+
+        .link-button i {
+            position: absolute;
+            left: 20px;
+            font-size: 1.25rem;
+        }
+
+        .link-button:hover {
+            background: #ffffff;
+            color: #0f172a;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        /* FOOTER */
+        .footer {
+            margin-top: 35px;
+            font-size: 0.75rem;
+            color: #64748b;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Bagian Foto & Nama -->
+        <div class="profile">
+            <img src="https://i.pinimg.com/736x/1d/1d/e8/1d1de80676e993e928563ada47cf845c.jpg" alt="Foto Profil" class="profile-img">
+            <h1>Gladys Kinara Syarifi</h1>
+        </div>
+
+        <!-- Bagian Tombol Link -->
+        <div class="links">
+            <!-- WhatsApp -->
+            <a href=https://wa.me/qr/4TFWNTG6LUA6I1 target="_blank" class="link-button">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>WhatsApp</span>
+            </a>
+
+            <!-- Instagram -->
+            <a href=https://instagram.com/knrsaa_?srtk=MWhqaWRtNmY0Zmg2Yw%3D%3D&utm_source=qr target="_blank" class="link-button">
+                <i class="fa-brands fa-instagram"></i>
+                <span>Instagram</span>
+            </a>
+
+            <!-- TikTok -->
+            <a href=www.tiktok.com/@knrsaa_ target="_blank" class="link-button">
+                <i class="fa-brands fa-tiktok"></i>
+                <span>TikTok</span>
+            </a>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+             All rights reserved.</p>
+        </div>
+    </div>
+
+</body>
+</html>
